@@ -6,7 +6,7 @@ jdk:
   - openjdk11
   
 install:
-  - echo BLAH;
+  - echo $BLAH
   - printenv
   - env
-  
+  - $BLAH
